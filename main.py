@@ -13,4 +13,4 @@ def devopstesting2(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'Hello World testing2 !'
+        return f'Hello World testing from sam!'
