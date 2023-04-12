@@ -1,4 +1,4 @@
-def devopstesting(request):
+def devopstesting2(request):
     """Responds to any HTTP request.
     Args:
         request (flask.Request): HTTP request object.
@@ -13,4 +13,4 @@ def devopstesting(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'Hello World testing new !'
+        return f'Hello World testing2 !'

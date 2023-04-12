@@ -3,7 +3,7 @@ steps:
   args:
   - functions
   - deploy
-  - devopstesting
+  - devopstesting2
   - --region=us-central1
   - --source=.
   - --trigger-http
